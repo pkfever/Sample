@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Zero point",
+    "price": 0
+  },
+  {
+    "title": "NS Interchange",
+    "price": 5
+  },
+  {
+    "title": "Ph4 Interchange",
+    "price": 10
+  },
+  {
+    "title": "Ferozpur Interchange",
+    "price": 17
+  },
+  {
+    "title": "Lake City Interchange",
+    "price": 24
+  },
+  {
+    "title": "Raiwand Interchange",
+    "price": 29
+  },
+  {
+    "title": "Bahria Interchange",
+    "price": 34
+  }
+]

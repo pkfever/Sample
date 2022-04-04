@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/entryPointsFragment">
+
+    <fragment
+        android:id="@+id/entryPointsFragment"
+        android:name="com.tooltrip.ui.fragment.EntryPointFragment"
+        android:label="EntryPointsFragment">
+
+        <action
+            android:id="@+id/action_entryPointsFragment_to_interchangeDialog"
+            app:destination="@id/interchangeDialog" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/interchangeDialog"
+        android:name="com.tooltrip.ui.dialog.InterchangeDialog"
+        android:label="InterchangeDialog">
+
+    </dialog>
+</navigation>
